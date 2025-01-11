@@ -60,8 +60,14 @@ const Footer = () => {
         </div>
         <div className="text-white">
           <p className="font-poppinsmedium mb-6 text-[20px]">Download App</p>
-          <p className="font-poppinsmedium text-[12px] text-graysecondary mb-4">
+          <p className="font-poppinsmedium text-[16px] text-[#aeaeae] mb-4">
             Save $3 with App New User Only
+            <Image
+              src={"/images/get-it-on.png"}
+              alt="fb"
+              width={250}
+              height={250}
+            ></Image>
           </p>
           <div className="flex justify-start items-center gap-[26px]">
             <Image
